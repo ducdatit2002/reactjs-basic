@@ -25,59 +25,103 @@ export default class Body extends Component {
           <section className="pt-4">
             <div className="container px-lg-5">
               <div className="row gx-lg-5">
-                <div className="col-lg-6 col-xxl-4 mb-5">
+                <div className="col-lg-3 col-xxl-4 mb-5">
                   <div className="card bg-light border-0 h-100">
-                    <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                    <img
+                      style={{ width: 231, height: 180 }}
+                      src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-1/357494887_3624269944515629_8624811492855125654_n.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3PPi8MtWozUAX8VckSc&_nc_oc=AQl8ozSx5sgF-g0aaBGEGqCaT9yDMCoBv8I1yGm56AqrzIlKACT8uduD6fWMOZfKLT3BE4zNbOkQIwu3GKpp5kqq&_nc_ht=scontent.fsgn5-8.fna&_nc_e2o=f&oh=00_AfCt7GSl7oSwEEPsiGPV5JQUVpFwmgpQkdaADvhYzdnlZg&oe=653A2052"
+                      alt=""
+                    />
+                    <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0 bg-white">
                       <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
                         <i className="bi bi-collection" />
                       </div>
-                      <h2 className="fs-4 fw-bold">Fresh new layout</h2>
+                      <h2 className="fs-1 fw-bold">Card title</h2>
                       <p className="mb-0">
                         With Bootstrap 5, we've created a fresh new layout for
                         this template!
                       </p>
                     </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-xxl-4 mb-5">
-                  <div className="card bg-light border-0 h-100">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
-                        <i className="bi bi-cloud-download" />
+                        <i className="bi bi-collection" />
                       </div>
-                      <h2 className="fs-4 fw-bold">Free to download</h2>
-                      <p className="mb-0">
-                        As always, Start Bootstrap has a powerful collectin of
-                        free templates.
-                      </p>
+                      <button className="btn btn-primary">Find Out More!</button>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-xxl-4 mb-5">
+                <div className="col-lg-3 col-xxl-4 mb-5">
                   <div className="card bg-light border-0 h-100">
+                    <img
+                      style={{ width: 231, height: 180 }}
+                      src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-1/357494887_3624269944515629_8624811492855125654_n.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3PPi8MtWozUAX8VckSc&_nc_oc=AQl8ozSx5sgF-g0aaBGEGqCaT9yDMCoBv8I1yGm56AqrzIlKACT8uduD6fWMOZfKLT3BE4zNbOkQIwu3GKpp5kqq&_nc_ht=scontent.fsgn5-8.fna&_nc_e2o=f&oh=00_AfCt7GSl7oSwEEPsiGPV5JQUVpFwmgpQkdaADvhYzdnlZg&oe=653A2052"
+                      alt=""
+                    />
+                    <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0 bg-white">
+                      <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
+                        <i className="bi bi-collection" />
+                      </div>
+                      <h2 className="fs-1 fw-bold">Card title</h2>
+                      <p className="mb-0">
+                        With Bootstrap 5, we've created a fresh new layout for
+                        this template!
+                      </p>
+                    </div>
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
-                        <i className="bi bi-card-heading" />
+                        <i className="bi bi-collection" />
                       </div>
-                      <h2 className="fs-4 fw-bold">Jumbotron hero header</h2>
-                      <p className="mb-0">
-                        The heroic part of this template is the jumbotron hero
-                        header!
-                      </p>
+                      <button className="btn btn-primary">Find Out More!</button>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-xxl-4 mb-5">
+                <div className="col-lg-3 col-xxl-4 mb-5">
                   <div className="card bg-light border-0 h-100">
+                    <img
+                      style={{ width: 231, height: 180 }}
+                      src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-1/357494887_3624269944515629_8624811492855125654_n.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3PPi8MtWozUAX8VckSc&_nc_oc=AQl8ozSx5sgF-g0aaBGEGqCaT9yDMCoBv8I1yGm56AqrzIlKACT8uduD6fWMOZfKLT3BE4zNbOkQIwu3GKpp5kqq&_nc_ht=scontent.fsgn5-8.fna&_nc_e2o=f&oh=00_AfCt7GSl7oSwEEPsiGPV5JQUVpFwmgpQkdaADvhYzdnlZg&oe=653A2052"
+                      alt=""
+                    />
+                    <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0 bg-white">
+                      <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
+                        <i className="bi bi-collection" />
+                      </div>
+                      <h2 className="fs-1 fw-bold">Card title</h2>
+                      <p className="mb-0">
+                        With Bootstrap 5, we've created a fresh new layout for
+                        this template!
+                      </p>
+                    </div>
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
-                        <i className="bi bi-bootstrap" />
+                        <i className="bi bi-collection" />
                       </div>
-                      <h2 className="fs-4 fw-bold">Feature boxes</h2>
+                      <button className="btn btn-primary">Find Out More!</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-xxl-4 mb-5">
+                  <div className="card bg-light border-0 h-100">
+                    <img
+                      style={{ width: 231, height: 180 }}
+                      src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-1/357494887_3624269944515629_8624811492855125654_n.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3PPi8MtWozUAX8VckSc&_nc_oc=AQl8ozSx5sgF-g0aaBGEGqCaT9yDMCoBv8I1yGm56AqrzIlKACT8uduD6fWMOZfKLT3BE4zNbOkQIwu3GKpp5kqq&_nc_ht=scontent.fsgn5-8.fna&_nc_e2o=f&oh=00_AfCt7GSl7oSwEEPsiGPV5JQUVpFwmgpQkdaADvhYzdnlZg&oe=653A2052"
+                      alt=""
+                    />
+                    <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0 bg-white">
+                      <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
+                        <i className="bi bi-collection" />
+                      </div>
+                      <h2 className="fs-1 fw-bold">Card title</h2>
                       <p className="mb-0">
-                        We've created some custom feature boxes using Bootstrap
-                        icons!
+                        With Bootstrap 5, we've created a fresh new layout for
+                        this template!
                       </p>
+                    </div>
+                    <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                      <div className="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
+                        <i className="bi bi-collection" />
+                      </div>
+                      <button className="btn btn-primary">Find Out More!</button>
                     </div>
                   </div>
                 </div>
